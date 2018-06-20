@@ -2,12 +2,25 @@
 
 Python 備忘録
 
-- python を走らせて >>> help()
+- python を走らせて
+```
+>>> help()
+```
 
-
-配列（Python では「リスト」とよばれている）
+配列（Python では「リスト（list）」とよばれている）
 ```
 >>> a = [21, 32, 40, 11]
+>>> a[2]
+40
+```
+
+辞書（dict）
+```
+>>> s = {'miyazaki':54, 'tokyo':22, 'osaka':34}
+>>> s['tokyo']
+22
+>>> s
+{'miyazaki': 54, 'tokyo': 22, 'osaka': 34}
 ```
 
 
